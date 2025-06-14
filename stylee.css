@@ -1,0 +1,202 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#flex1 {
+    background-color: rgba(128, 53, 131, 0.679);
+    width: 20vw;
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    border:1px solid rgba(15, 109, 24, 0.666)
+}
+#flex3 {
+    background-color: rgba(153, 170, 197, 0.789);
+    height: 25vh;
+    width: 20vw;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    padding-top: 10px;
+    border: 1px solid black;   
+}
+#flex4 {
+    background-color:rgba(5, 63, 27, 0.775);
+    height: 55vh;
+    width: 20vw;
+    border: 1px solid darkblue
+}
+form[id="regForm"] {
+    width: 60%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    
+    width:100%;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 1px;
+
+}
+label {
+    font-size: 16px;
+    margin: 0px 0px 0px 10px;
+}
+input,
+select,
+textarea {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="color"] {
+    height: 40px;;
+}
+textarea {
+    height: 60px;
+    resize: none;
+}
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(57, 57, 153);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(40, 40, 120);
+}
+#terms {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+.terms-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.terms-container input[type="checkbox"] {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+input.error, select.error, textarea.error {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+#loginform {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 5px; 
+}
+#loginform label{
+    color:rgb(6, 49, 74);
+}
+#loginform label, 
+#loginform input {
+     margin-bottom:5px; 
+    align-self: flex-start; 
+    }
+
+#loginform input {
+    width: 110%; 
+    padding: 5px; 
+    font-size: 12px; 
+    margin-bottom: 5px; 
+}
+#loginform button {
+    padding: 5px; 
+    font-size: 12px; 
+    margin-bottom: 5px; 
+    width: 80%;
+    background-color: rgb(40, 176, 42);
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(112, 101, 18);
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(87, 22, 61);
+}
+#innerBox {
+    background-color:rgba(191, 100, 127, 0.864); 
+    width: 90%;
+    height: 90%;
+    margin: 10px auto; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto; 
+    ;
+}
+#innerBox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#innerBox td {
+    border: 1px solid black;
+    padding: 12px 5px;
+    text-align: center;
+}
+#innerBox th {
+    background-color:rgba(249, 125, 125, 0.862);
+    padding: 8px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+thead th {   
+    z-index: 1;
+}
+
+h1{
+    font-size: large;  
+}
+
