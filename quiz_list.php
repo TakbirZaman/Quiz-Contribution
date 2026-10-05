@@ -10,6 +10,7 @@ while ($row = $result->fetch_assoc()) {
     echo "<strong>Questions:</strong> " . $row['total_questions'] . "<br>";
     echo "<strong>Time Limit:</strong> " . $row['time_limit'] . " mins<br>";
     echo "<a href='take_quiz.php?quiz_id=" . $row['id'] . "'>Start Quiz</a>";
+    echo " | <a href='leaderboard.php?quiz_id=" . $row['id'] . "'>Leaderboard</a>";
     echo "</div>";
 }
 ?>
